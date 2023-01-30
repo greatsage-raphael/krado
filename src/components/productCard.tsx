@@ -46,7 +46,7 @@ export const ProductCard: React.FC<ProductCardProps> = ({
                         <h3 className="font-bold text-gray-800">{title}</h3>
                         <p className="text-sm">{description}</p>
                         <span className="text-lg font-bold text-gray-800">
-                            ${price / 100}
+                            UGX {price}
                         </span>
                     </div>
                 </div>
